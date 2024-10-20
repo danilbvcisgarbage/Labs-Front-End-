@@ -1,0 +1,82 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+tr {
+    border: 2px solid black;
+}
+td {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+tr:nth-child(1) {
+    background-color: #228f8f; 
+    color: #ffffff; 
+}
+
+tr:nth-child(2) {
+    background-color: #f5f522; 
+    color: #333333; 
+}
+
+
+tr:nth-child(1):hover {
+    background-color: #f5f522; 
+    color: #333333; 
+}
+
+tr:nth-child(2):hover {
+    background-color: #228f8f;
+    color: #ffffff; 
+}
+
+
+/* Хрест (Завдання 3) */
+.cross-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(218, 28, 28);
+}
+
+.cross-vertical, .cross-horizontal {
+    position: absolute;
+    background-color: white;
+}
+
+.cross-vertical {
+    width: 40px;
+    height: 100px;
+    top: 50px;
+    left: 80px;
+    border-radius: 5px;
+}
+
+.cross-horizontal {
+    width: 110px;
+    height: 40px;
+    top: 80px;
+    left: 45px;
+    border-radius: 5px;
+}
+
+.red {
+    background-color: red;
+    top: 50px;
+    left: 10px;
+}
+
+.blue {
+    background-color: blue;
+    top: 0;
+    left: 50px;
+}
+
+.green {
+    background-color: green;
+    top: 50px;
+    left: 90px;
+}
