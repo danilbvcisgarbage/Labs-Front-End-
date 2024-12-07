@@ -1,0 +1,13 @@
+.highlight {
+    background-color: blue;
+    color: white;
+}
+
+.highlight-green {
+    background-color: green;
+    color: yellow;
+}
+
+button {
+    margin: 5px;
+}
