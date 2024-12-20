@@ -63,7 +63,7 @@
     <nav class="bg-blue-50 p-4">
         <div class="container mx-auto flex justify-between items-center">
             <div class="flex items-center">
-                <img src="images/PetCareLogo.png" alt="Pet Care Logo" class="h-10">
+                <img src="./images/PetCareLogo.png" alt="Pet Care Logo" class="h-10">
                 <span class="text-xl font-bold ml-2 text-blue-900">Pet Care</span>
             </div>
             <div class="hidden md:flex space-x-6">
@@ -96,10 +96,15 @@
                     </div>
                 </div>
             </div>
-            <div class="w-full md:w-1/2 relative">
-                <div class="bg-yellow-400 rounded-full w-64 h-64 absolute right-0 top-0 z-0"></div>
-                <img src="./images/cat.png" alt="Dog" class="relative z-10">
-            </div>
+            <div class="w-full md:w-1/2 relative flex justify-center items-center">
+                <!-- Контейнер для кота та жовтого круга -->
+                <div class="relative">
+                    <!-- Жовтий круг -->
+                    <div class="bg-yellow-400 rounded-full w-64 h-64 absolute -top-10 -left-10 z-0"></div>
+                    <!-- Зображення кота -->
+                    <img src="./images/cat.png" alt="Cat" class="relative z-10">
+                </div>
+            </div>                       
         </div>
     </section>
 
@@ -179,7 +184,7 @@
                 </div>
             </div>
             <div class="w-full md:w-1/2 px-4 mt-8 md:mt-0">
-                <img src="/images/HappyDog.png" alt="Happy Dog" class="rounded-lg">
+                <img src="./images/HappyDog.png" alt="Happy Dog" class="rounded-lg">
             </div>
         </div>
     </section>
