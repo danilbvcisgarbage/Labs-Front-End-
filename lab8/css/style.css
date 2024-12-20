@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Top bar styles */
+.top-bar-link {
+    transition: all 0.3s ease;
+}
+
+.top-bar-link:hover svg {
+    transform: scale(1.1);
+}
+
+/* Custom styles (додатково до Tailwind) */
+.service-card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+.play-button:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.donation-button:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
